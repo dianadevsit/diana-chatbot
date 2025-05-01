@@ -8,8 +8,8 @@ const botResponses = {
     "what do you do": "Diana specializes in backend troubleshooting, SQL magic, and creating customer-first technical solutions.",
     "skills": "SQL, APIs, .NET, AWS, React, DevTools, and writing crystal-clear documentation. Basically a one-woman toolbox 🧰",
     "github": "Explore her projects: <a href=\"https://github.com/dianadevsit\" target=\"_blank\">github.com/dianadevsit</a>",
-    "resume": "Sure thing! <a href=\"assets/images/Diana Saasaa - Support Engineer - Resume.pdf\" target=\"_blank\">Click here to view her resume</a> or download it from the Contact section.",
-  
+     "resume": "Sure thing! <a href='assets/Diana-Saasaa-Resume.pdf' target='_blank'>Click here to view her resume</a>.",
+
     // Interview Q&A
     "api experience": "Diana has worked extensively with REST APIs — including debugging payload issues, fixing auth errors, and helping clients integrate cleanly.",
     "sql example": "She once solved a login issue by finding and deleting duplicate users with SQL — the client got access, and the bug never returned.",
@@ -49,7 +49,7 @@ const botResponses = {
     const chatBox = document.getElementById('chatBox');
     const messageDiv = document.createElement('div');
     messageDiv.className = className;
-    messageDiv.textContent = text;
+    messageDiv.innerHTML = text; // Use innerHTML to allow for links
     chatBox.appendChild(messageDiv);
     chatBox.scrollTop = chatBox.scrollHeight;
   }
