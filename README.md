@@ -1,9 +1,6 @@
 <h1 align="center">🤖 DianaBot</h1>
 <p align="center">A friendly portfolio chatbot that answers interview-style questions and showcases my technical skills in a fun, interactive way.</p>
 
-<p align="center">
-  <img src="assets/bot.webp" alt="DianaBot Avatar" width="120" />
-</p>
 
 <hr>
 
