@@ -41,7 +41,7 @@ diana-chatbot/
 
 <h2>🔗 Links</h2>
 <ul>
-  <li><a href="https://dianadevsit.github.io/DianaBot">Live Demo</a></li>
+  <li><a href="https://dianadevsit.github.io/diana-chatbot">Live Demo</a></li>
   <li><a href="https://github.com/dianadevsit">My GitHub</a></li>
 </ul>
 
